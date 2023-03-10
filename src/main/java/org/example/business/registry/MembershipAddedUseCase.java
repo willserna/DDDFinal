@@ -25,7 +25,7 @@ public class MembershipAddedUseCase implements UseCaseForEvent<MembershipAdded> 
 
         List<DomainEvent> eventsBooking = eventsRepository.findByAggregateRootId(event.getBookingId());
         Booking booking = Booking.from(BookingId.of(event.getBookingId()), eventsBooking);
-        booking.editCoachInfoEvent(event.etCoachId());
+        booking.editCoachInfoEvent(event.getCoachId());
         return booking.getUncommittedChanges().stream().map(eventsRepository::saveEvent).toList();
     }
 }
