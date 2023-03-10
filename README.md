@@ -2,10 +2,12 @@
 Final Challenge for DDD module 
 
 Big Picture:
+
 ![image](https://user-images.githubusercontent.com/36211923/224412832-c3181789-05f1-4f4d-87ab-8f7314af4fbb.png)
 
 
 For this activity, a Gym establishment was picked, with four subdomains:
+
 ![image](https://user-images.githubusercontent.com/36211923/224413616-07ac35ff-7b21-402e-90b9-f5b25f193977.png)
 
 * Customer Service <<Support>>
@@ -23,6 +25,7 @@ The bounded context "Membership Management App" was chosen to be modeled in code
 There were two Aggregates identified:  
 
   * Registry aggregate: This aggregate has 4 Entities:
+  
   ![image](https://user-images.githubusercontent.com/36211923/224413947-770aaf75-4c9a-4593-9100-da7ddf7ca513.png)
     * Registry (Aggregate root)
     * User Registration
@@ -31,6 +34,7 @@ There were two Aggregates identified:
       
   
    * Booking Aggregate: This aggregate has 4 Entities:
+  
    ![image](https://user-images.githubusercontent.com/36211923/224414126-b0f30ff4-dc28-45c8-9ca3-3fbdf529caef.png)
 
      * Booking (Aggregate root)
