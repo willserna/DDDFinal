@@ -1,14 +1,9 @@
 # DDDFinal
 Final Challenge for DDD module 
 
-Big Picture:
+For this activity, a Gym establishment was picked, with 4 subdomains:
 
 ![image](https://user-images.githubusercontent.com/36211923/224412832-c3181789-05f1-4f4d-87ab-8f7314af4fbb.png)
-
-
-For this activity, a Gym establishment was picked, with four subdomains:
-
-![image](https://user-images.githubusercontent.com/36211923/224413616-07ac35ff-7b21-402e-90b9-f5b25f193977.png)
 
 * Customer Service <<Support>>
 * Gym Facilities <<Core>>
@@ -22,7 +17,10 @@ From said subdomains, four bounded contexts were identified:
   * Maintenance App
 
 The bounded context "Membership Management App" was chosen to be modeled in code.
-There were two Aggregates identified:  
+There were two Aggregates identified:
+  
+  ![image](https://user-images.githubusercontent.com/36211923/224413616-07ac35ff-7b21-402e-90b9-f5b25f193977.png)
+  
 
   * Registry aggregate: This aggregate has 4 Entities:
   
